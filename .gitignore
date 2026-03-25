@@ -1,0 +1,9 @@
+beadando/Library/
+beadando/Temp/
+beadando/Obj/
+beadando/Build/
+beadando/Logs/
+beadando/UserSettings/
+rl_env/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+behaviors:
+  PredatorAgent:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 256
+      buffer_size: 2048
+      learning_rate: 3.0e-4
+    network_settings:
+      hidden_units: 128
+      num_layers: 2
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+    max_steps: 100000
+    time_horizon: 64
+    summary_freq: 1000
