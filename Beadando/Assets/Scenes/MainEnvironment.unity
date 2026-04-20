@@ -162,6 +162,7 @@ GameObject:
   - component: {fileID: 289312984}
   - component: {fileID: 289312983}
   - component: {fileID: 289312982}
+  - component: {fileID: 289312986}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -257,6 +258,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &289312986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289312981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7531914c2d44034b9356d87fdbd0d17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
+  moveRadius: 6
+  directionChangeInterval: 2
 --- !u!1 &577541665
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,6 +297,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &577541666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577541665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DecisionPeriod: 5
+  TakeActionsBetweenDecisions: 1
 --- !u!114 &577541668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,7 +324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 5
+    VectorObservationSize: 7
     NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 4
@@ -470,6 +500,15 @@ MonoBehaviour:
   rb: {fileID: 577541670}
   moveForce: 10
   turnSpeed: 200
+  jumpForce: 5
+  groundCheckDistance: 1.1
+  maxObservationSpeed: 10
+  maxTargetDistance: 20
+  maxMoveSpeed: 6
+  successDistance: 1.5
+  stepPenalty: -0.001
+  progressRewardScale: 0.05
+  targetReachReward: 1
   maxEpisodeTime: 30
   target: {fileID: 289312985}
 --- !u!1 &705507993
@@ -775,17 +814,3 @@ SceneRoots:
   - {fileID: 252434660}
   - {fileID: 577541674}
   - {fileID: 289312985}
---- !u!114 &577541666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 577541665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DecisionPeriod: 5
-  TakeActionsBetweenDecisions: 1
