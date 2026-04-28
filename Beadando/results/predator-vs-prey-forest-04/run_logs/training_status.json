@@ -1,0 +1,47 @@
+{
+    "PredatorAgent": {
+        "checkpoints": [
+            {
+                "steps": 499892,
+                "file_path": "results\\predator-vs-prey-forest-04\\PredatorAgent\\PredatorAgent-499892.onnx",
+                "reward": -1.0972973108291626,
+                "creation_time": 1777303101.799221,
+                "auxillary_file_paths": [
+                    "results\\predator-vs-prey-forest-04\\PredatorAgent\\PredatorAgent-499892.pt"
+                ]
+            },
+            {
+                "steps": 999954,
+                "file_path": "results\\predator-vs-prey-forest-04\\PredatorAgent\\PredatorAgent-999954.onnx",
+                "reward": -0.08936228215073545,
+                "creation_time": 1777305838.144248,
+                "auxillary_file_paths": [
+                    "results\\predator-vs-prey-forest-04\\PredatorAgent\\PredatorAgent-999954.pt"
+                ]
+            },
+            {
+                "steps": 1000082,
+                "file_path": "results\\predator-vs-prey-forest-04\\PredatorAgent\\PredatorAgent-1000082.onnx",
+                "reward": -0.08936228215073545,
+                "creation_time": 1777305838.19297,
+                "auxillary_file_paths": [
+                    "results\\predator-vs-prey-forest-04\\PredatorAgent\\PredatorAgent-1000082.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000082,
+            "file_path": "results\\predator-vs-prey-forest-04\\PredatorAgent.onnx",
+            "reward": -0.08936228215073545,
+            "creation_time": 1777305838.19297,
+            "auxillary_file_paths": [
+                "results\\predator-vs-prey-forest-04\\PredatorAgent\\PredatorAgent-1000082.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cpu"
+    }
+}

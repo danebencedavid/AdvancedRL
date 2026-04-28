@@ -1,0 +1,47 @@
+{
+    "PreyAgent": {
+        "checkpoints": [
+            {
+                "steps": 499900,
+                "file_path": "results\\prey-forest-05\\PreyAgent\\PreyAgent-499900.onnx",
+                "reward": -1.5607595141319668,
+                "creation_time": 1777329397.298539,
+                "auxillary_file_paths": [
+                    "results\\prey-forest-05\\PreyAgent\\PreyAgent-499900.pt"
+                ]
+            },
+            {
+                "steps": 999946,
+                "file_path": "results\\prey-forest-05\\PreyAgent\\PreyAgent-999946.onnx",
+                "reward": -1.8277495235204697,
+                "creation_time": 1777331595.8728948,
+                "auxillary_file_paths": [
+                    "results\\prey-forest-05\\PreyAgent\\PreyAgent-999946.pt"
+                ]
+            },
+            {
+                "steps": 1000008,
+                "file_path": "results\\prey-forest-05\\PreyAgent\\PreyAgent-1000008.onnx",
+                "reward": -1.8347067914225839,
+                "creation_time": 1777331595.9201658,
+                "auxillary_file_paths": [
+                    "results\\prey-forest-05\\PreyAgent\\PreyAgent-1000008.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000008,
+            "file_path": "results\\prey-forest-05\\PreyAgent.onnx",
+            "reward": -1.8347067914225839,
+            "creation_time": 1777331595.9201658,
+            "auxillary_file_paths": [
+                "results\\prey-forest-05\\PreyAgent\\PreyAgent-1000008.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cpu"
+    }
+}

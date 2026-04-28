@@ -1,0 +1,56 @@
+[
+  {
+    "tag": "Predator/Success",
+    "source_event_file": "results\\predator-weather-03\\PredatorAgent\\events.out.tfevents.1777230312.Bence-PC.21872.0",
+    "csv_file": "results\\predator-weather-03\\csv_export\\PredatorAgent__Predator_Success.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Predator/OutOfBounds",
+    "source_event_file": "results\\predator-weather-03\\PredatorAgent\\events.out.tfevents.1777230312.Bence-PC.21872.0",
+    "csv_file": "results\\predator-weather-03\\csv_export\\PredatorAgent__Predator_OutOfBounds.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Predator/FinalDistance",
+    "source_event_file": "results\\predator-weather-03\\PredatorAgent\\events.out.tfevents.1777230312.Bence-PC.21872.0",
+    "csv_file": "results\\predator-weather-03\\csv_export\\PredatorAgent__Predator_FinalDistance.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Predator/EpisodeTime",
+    "source_event_file": "results\\predator-weather-03\\PredatorAgent\\events.out.tfevents.1777230312.Bence-PC.21872.0",
+    "csv_file": "results\\predator-weather-03\\csv_export\\PredatorAgent__Predator_EpisodeTime.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Predator/FinalHunger",
+    "source_event_file": "results\\predator-weather-03\\PredatorAgent\\events.out.tfevents.1777230312.Bence-PC.21872.0",
+    "csv_file": "results\\predator-weather-03\\csv_export\\PredatorAgent__Predator_FinalHunger.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Predator/FinalStamina",
+    "source_event_file": "results\\predator-weather-03\\PredatorAgent\\events.out.tfevents.1777230312.Bence-PC.21872.0",
+    "csv_file": "results\\predator-weather-03\\csv_export\\PredatorAgent__Predator_FinalStamina.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Environment/RainIntensity",
+    "source_event_file": "results\\predator-weather-03\\PredatorAgent\\events.out.tfevents.1777230312.Bence-PC.21872.0",
+    "csv_file": "results\\predator-weather-03\\csv_export\\PredatorAgent__Environment_RainIntensity.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Environment/WindMagnitude",
+    "source_event_file": "results\\predator-weather-03\\PredatorAgent\\events.out.tfevents.1777230312.Bence-PC.21872.0",
+    "csv_file": "results\\predator-weather-03\\csv_export\\PredatorAgent__Environment_WindMagnitude.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Environment/Cumulative Reward",
+    "source_event_file": "results\\predator-weather-03\\PredatorAgent\\events.out.tfevents.1777230312.Bence-PC.21872.0",
+    "csv_file": "results\\predator-weather-03\\csv_export\\PredatorAgent__Environment_Cumulative_Reward.csv",
+    "points": 1000
+  }
+]

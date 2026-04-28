@@ -1,0 +1,47 @@
+{
+    "PredatorAgent": {
+        "checkpoints": [
+            {
+                "steps": 499886,
+                "file_path": "results\\predator-vs-prey-obstacles-03\\PredatorAgent\\PredatorAgent-499886.onnx",
+                "reward": -0.6182890332170895,
+                "creation_time": 1777201281.4071507,
+                "auxillary_file_paths": [
+                    "results\\predator-vs-prey-obstacles-03\\PredatorAgent\\PredatorAgent-499886.pt"
+                ]
+            },
+            {
+                "steps": 999909,
+                "file_path": "results\\predator-vs-prey-obstacles-03\\PredatorAgent\\PredatorAgent-999909.onnx",
+                "reward": -0.6251394409919158,
+                "creation_time": 1777203906.4079134,
+                "auxillary_file_paths": [
+                    "results\\predator-vs-prey-obstacles-03\\PredatorAgent\\PredatorAgent-999909.pt"
+                ]
+            },
+            {
+                "steps": 1000037,
+                "file_path": "results\\predator-vs-prey-obstacles-03\\PredatorAgent\\PredatorAgent-1000037.onnx",
+                "reward": -0.6251394409919158,
+                "creation_time": 1777203906.4549403,
+                "auxillary_file_paths": [
+                    "results\\predator-vs-prey-obstacles-03\\PredatorAgent\\PredatorAgent-1000037.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000037,
+            "file_path": "results\\predator-vs-prey-obstacles-03\\PredatorAgent.onnx",
+            "reward": -0.6251394409919158,
+            "creation_time": 1777203906.4549403,
+            "auxillary_file_paths": [
+                "results\\predator-vs-prey-obstacles-03\\PredatorAgent\\PredatorAgent-1000037.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cpu"
+    }
+}

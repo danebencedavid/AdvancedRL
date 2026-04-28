@@ -1,0 +1,29 @@
+{
+    "PredatorAgent": {
+        "checkpoints": [
+            {
+                "steps": 300055,
+                "file_path": "results\\run27\\PredatorAgent\\PredatorAgent-300055.onnx",
+                "reward": -1.404217208425204,
+                "creation_time": 1776702238.155928,
+                "auxillary_file_paths": [
+                    "results\\run27\\PredatorAgent\\PredatorAgent-300055.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 300055,
+            "file_path": "results\\run27\\PredatorAgent.onnx",
+            "reward": -1.404217208425204,
+            "creation_time": 1776702238.155928,
+            "auxillary_file_paths": [
+                "results\\run27\\PredatorAgent\\PredatorAgent-300055.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cpu"
+    }
+}

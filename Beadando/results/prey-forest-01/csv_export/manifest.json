@@ -1,0 +1,86 @@
+[
+  {
+    "tag": "Predator/Success",
+    "source_event_file": "results\\prey-forest-01\\PreyAgent\\events.out.tfevents.1777283230.Bence-PC.20132.0",
+    "csv_file": "results\\prey-forest-01\\csv_export\\PreyAgent__Predator_Success.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Predator/OutOfBounds",
+    "source_event_file": "results\\prey-forest-01\\PreyAgent\\events.out.tfevents.1777283230.Bence-PC.20132.0",
+    "csv_file": "results\\prey-forest-01\\csv_export\\PreyAgent__Predator_OutOfBounds.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Predator/FinalDistance",
+    "source_event_file": "results\\prey-forest-01\\PreyAgent\\events.out.tfevents.1777283230.Bence-PC.20132.0",
+    "csv_file": "results\\prey-forest-01\\csv_export\\PreyAgent__Predator_FinalDistance.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Predator/EpisodeTime",
+    "source_event_file": "results\\prey-forest-01\\PreyAgent\\events.out.tfevents.1777283230.Bence-PC.20132.0",
+    "csv_file": "results\\prey-forest-01\\csv_export\\PreyAgent__Predator_EpisodeTime.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Predator/FinalHunger",
+    "source_event_file": "results\\prey-forest-01\\PreyAgent\\events.out.tfevents.1777283230.Bence-PC.20132.0",
+    "csv_file": "results\\prey-forest-01\\csv_export\\PreyAgent__Predator_FinalHunger.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Predator/FinalStamina",
+    "source_event_file": "results\\prey-forest-01\\PreyAgent\\events.out.tfevents.1777283230.Bence-PC.20132.0",
+    "csv_file": "results\\prey-forest-01\\csv_export\\PreyAgent__Predator_FinalStamina.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Environment/RainIntensity",
+    "source_event_file": "results\\prey-forest-01\\PreyAgent\\events.out.tfevents.1777283230.Bence-PC.20132.0",
+    "csv_file": "results\\prey-forest-01\\csv_export\\PreyAgent__Environment_RainIntensity.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Environment/WindMagnitude",
+    "source_event_file": "results\\prey-forest-01\\PreyAgent\\events.out.tfevents.1777283230.Bence-PC.20132.0",
+    "csv_file": "results\\prey-forest-01\\csv_export\\PreyAgent__Environment_WindMagnitude.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Prey/SurvivedTimeout",
+    "source_event_file": "results\\prey-forest-01\\PreyAgent\\events.out.tfevents.1777283230.Bence-PC.20132.0",
+    "csv_file": "results\\prey-forest-01\\csv_export\\PreyAgent__Prey_SurvivedTimeout.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Prey/Caught",
+    "source_event_file": "results\\prey-forest-01\\PreyAgent\\events.out.tfevents.1777283230.Bence-PC.20132.0",
+    "csv_file": "results\\prey-forest-01\\csv_export\\PreyAgent__Prey_Caught.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Prey/OutOfBounds",
+    "source_event_file": "results\\prey-forest-01\\PreyAgent\\events.out.tfevents.1777283230.Bence-PC.20132.0",
+    "csv_file": "results\\prey-forest-01\\csv_export\\PreyAgent__Prey_OutOfBounds.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Prey/FinalDistance",
+    "source_event_file": "results\\prey-forest-01\\PreyAgent\\events.out.tfevents.1777283230.Bence-PC.20132.0",
+    "csv_file": "results\\prey-forest-01\\csv_export\\PreyAgent__Prey_FinalDistance.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Prey/EpisodeTime",
+    "source_event_file": "results\\prey-forest-01\\PreyAgent\\events.out.tfevents.1777283230.Bence-PC.20132.0",
+    "csv_file": "results\\prey-forest-01\\csv_export\\PreyAgent__Prey_EpisodeTime.csv",
+    "points": 1000
+  },
+  {
+    "tag": "Environment/Cumulative Reward",
+    "source_event_file": "results\\prey-forest-01\\PreyAgent\\events.out.tfevents.1777283230.Bence-PC.20132.0",
+    "csv_file": "results\\prey-forest-01\\csv_export\\PreyAgent__Environment_Cumulative_Reward.csv",
+    "points": 1000
+  }
+]

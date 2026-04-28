@@ -1,0 +1,47 @@
+{
+    "PredatorAgent": {
+        "checkpoints": [
+            {
+                "steps": 499915,
+                "file_path": "results\\predator-weather-03\\PredatorAgent\\PredatorAgent-499915.onnx",
+                "reward": -0.35005482596655685,
+                "creation_time": 1777232497.2868574,
+                "auxillary_file_paths": [
+                    "results\\predator-weather-03\\PredatorAgent\\PredatorAgent-499915.pt"
+                ]
+            },
+            {
+                "steps": 999894,
+                "file_path": "results\\predator-weather-03\\PredatorAgent\\PredatorAgent-999894.onnx",
+                "reward": -0.6705830082870446,
+                "creation_time": 1777235175.1804998,
+                "auxillary_file_paths": [
+                    "results\\predator-weather-03\\PredatorAgent\\PredatorAgent-999894.pt"
+                ]
+            },
+            {
+                "steps": 1000022,
+                "file_path": "results\\predator-weather-03\\PredatorAgent\\PredatorAgent-1000022.onnx",
+                "reward": -0.6705830082870446,
+                "creation_time": 1777235175.2186809,
+                "auxillary_file_paths": [
+                    "results\\predator-weather-03\\PredatorAgent\\PredatorAgent-1000022.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000022,
+            "file_path": "results\\predator-weather-03\\PredatorAgent.onnx",
+            "reward": -0.6705830082870446,
+            "creation_time": 1777235175.2186809,
+            "auxillary_file_paths": [
+                "results\\predator-weather-03\\PredatorAgent\\PredatorAgent-1000022.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cpu"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "PredatorAgent": {
+        "checkpoints": [
+            {
+                "steps": 499989,
+                "file_path": "results\\predator-weather-02\\PredatorAgent\\PredatorAgent-499989.onnx",
+                "reward": -0.683129361237992,
+                "creation_time": 1777224161.662237,
+                "auxillary_file_paths": [
+                    "results\\predator-weather-02\\PredatorAgent\\PredatorAgent-499989.pt"
+                ]
+            },
+            {
+                "steps": 500117,
+                "file_path": "results\\predator-weather-02\\PredatorAgent\\PredatorAgent-500117.onnx",
+                "reward": -0.683129361237992,
+                "creation_time": 1777224161.709608,
+                "auxillary_file_paths": [
+                    "results\\predator-weather-02\\PredatorAgent\\PredatorAgent-500117.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500117,
+            "file_path": "results\\predator-weather-02\\PredatorAgent.onnx",
+            "reward": -0.683129361237992,
+            "creation_time": 1777224161.709608,
+            "auxillary_file_paths": [
+                "results\\predator-weather-02\\PredatorAgent\\PredatorAgent-500117.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cpu"
+    }
+}

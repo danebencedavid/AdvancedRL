@@ -1,0 +1,29 @@
+{
+    "PreyAgent": {
+        "checkpoints": [
+            {
+                "steps": 202314,
+                "file_path": "results\\prey-01\\PreyAgent\\PreyAgent-202314.onnx",
+                "reward": -0.9960148766123015,
+                "creation_time": 1777035754.9162982,
+                "auxillary_file_paths": [
+                    "results\\prey-01\\PreyAgent\\PreyAgent-202314.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 202314,
+            "file_path": "results\\prey-01\\PreyAgent.onnx",
+            "reward": -0.9960148766123015,
+            "creation_time": 1777035754.9162982,
+            "auxillary_file_paths": [
+                "results\\prey-01\\PreyAgent\\PreyAgent-202314.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cpu"
+    }
+}
