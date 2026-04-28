@@ -64,8 +64,13 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.22f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Environment\MovingTarget.cs" />
+    <Compile Include="Assets\Scripts\Environment\RollingTerrainSurface.cs" />
+    <Compile Include="Assets\Scripts\Environment\EpisodeEnvironmentState.cs" />
+    <Compile Include="Assets\Scripts\Environment\IPreyTarget.cs" />
+    <Compile Include="Assets\Scripts\Environment\SimplePrey.cs" />
+    <Compile Include="Assets\Scripts\Environment\SharedEpisodeCoordinator.cs" />
     <Compile Include="Assets\Scripts\Agents\PredatorAgent.cs" />
+    <Compile Include="Assets\Scripts\Agents\PreyAgent.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

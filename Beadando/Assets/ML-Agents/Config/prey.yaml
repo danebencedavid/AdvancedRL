@@ -1,5 +1,5 @@
 behaviors:
-  PredatorAgent:
+  PreyAgent:
     trainer_type: ppo
     hyperparameters:
       batch_size: 256
